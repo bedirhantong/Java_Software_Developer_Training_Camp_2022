@@ -3,6 +3,7 @@ package com.Bedirhan.FirstDayOfTheChallange;
 /**
  * @author BEDİRHAN TONĞ
  * @since 21.09.2022
+ * {System.out.println("Hello World");}
  */
 
 // Yukarıdaki olaya javadoc denir.
@@ -14,7 +15,10 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-
+        /*
+        Primitive değişken tipleri stack
+        Referans değişken tipleri Heapte tutulur
+         */
         int num1 = 3;
         double dNum = 3.4;
         float fNum = 3.4f;
@@ -29,6 +33,16 @@ public class Main {
             charachter = (char) number;
             System.out.println(charachter+"-");
         }
+
+        System.out.println("Some interesting charachters");
+        System.out.println("\rJava\'camp\"2022\\");
+
+        /*
+        var ile değişken tanımlarsan ilk değer atamak zorundasın ve başka
+        satırda yeni bir değer atayamazsın.
+         */
+        var num = 12.32;
+        System.out.println(num);
 
     }
 }
