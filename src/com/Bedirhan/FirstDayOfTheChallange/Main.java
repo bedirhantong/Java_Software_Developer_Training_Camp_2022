@@ -24,6 +24,8 @@ public class Main {
         float fNum = 3.4f;
 
         System.out.println(num1+" "+dNum+" "+fNum);
+        System.out.println("--------------------");
+        System.out.println();
 
         // Printing UpperCase Letters
         char charachter;
@@ -33,9 +35,11 @@ public class Main {
             charachter = (char) number;
             System.out.println(charachter+"-");
         }
-
+        System.out.println("--------------------");
         System.out.println("Some interesting charachters");
         System.out.println("\rJava\'camp\"2022\\");
+        System.out.println("--------------------");
+        System.out.println();
 
         /*
         var ile değişken tanımlarsan ilk değer atamak zorundasın ve başka
@@ -43,6 +47,32 @@ public class Main {
          */
         var num = 12.32;
         System.out.println(num);
+        System.out.println("--------------------");
+        System.out.println();
+
+        // VERİ TİPLERİNİN BİRBİRİNE DÖNÜŞÜMÜ
+        /*
+        Bİr değişkeni kendinden daha büyük bir veri tipine cast edersek veri kaybı olmaz
+        ama daha alt bir veri tipine cast edersek veri kaybı oluşur. Bunu bir valizdeki eşyaları
+        başka valize koymak gibi düşünebilirsin.
+         */
+        String val = "2";
+        int val2 = Integer.parseInt(val)*2;
+        System.out.println(val2*2);
+        String newVal = Integer.toString(val2);
+        System.out.println(newVal+newVal);
+        double dNum2 = 3.32;
+        int intNum = (int) dNum2;
+        System.out.println(intNum);
+
+        /*
+                REFERANS VERİ TİPLERİ
+        Array,Class ve interface 3 referans tipidir.
+        Referans veri tiplerinde işlemler değişkenin kendisi ile yapılır. Primitive tiplerde işlemler değişkenin
+        kopyası ile yapılır. Bu sayede yapılan işlem sonucu değişkenimizin değeri değişir.
+         */
+
+
 
     }
 }
