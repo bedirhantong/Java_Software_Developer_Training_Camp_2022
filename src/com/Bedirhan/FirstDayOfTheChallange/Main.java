@@ -95,29 +95,72 @@ public class Main {
 
 
 //        guessNumber();
+//        String num1 = JOptionPane.showInputDialog(null,"Bir sayi gir len");
+//        int a = Integer.parseInt(num1);
+//        String num2 = JOptionPane.showInputDialog(null,"Bir sayi daha gir: ");
+//        int b = Integer.parseInt(num2);
+//        JOptionPane.showMessageDialog(null,hesapla(a,b),"SONUÇ",JOptionPane.INFORMATION_MESSAGE);
+
+//        int a = 5;
+//        switch (a){
+//            case 3 :
+//                System.out.println("3");
+//                break;
+//            case 5 :
+//                System.out.println("5");
+//                break;
+//            default:
+//                System.out.println("no");
+//            break;
+//        }
+
+        /*
+        int,short,byte,char,String tipindeki değişkenler switch ile kontrol edilebilir.
+         */
+
+
+        /*
+        Overloading : Aynı isime sahip metodların farklı parametre türleri veya parametre sayısı veya parametre sırası
+        veyaadönüş tipi dolayısıyla birbirinden farklı işlevlere sahip olmasıdır.
+         */
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// END OF MAİN METHOD
     }
-
-    static void guessNumber(){
-        int i = 1;
-        Random r = new Random();
-        int sayi = r.nextInt(10);
-        while (true){
-            String tahmin = JOptionPane.showInputDialog("tahmin et bakam: ");
-            int t = Integer.parseInt(tahmin);
-            if (t == sayi){
-                String message = "Helal len yusufi "+i+". tahminde bildin";
-                JOptionPane.showMessageDialog(null,message);
-                break;
-            }
-            else {
-                i++;
-            }
-        }
-    }
+//    static int hesapla(int a,int b){
+//        return a+b;
+//    }
+//    static void guessNumber(){
+//        int i = 1;
+//        Random r = new Random();
+//        int sayi = r.nextInt(10);
+//        while (true){
+//            String tahmin = JOptionPane.showInputDialog("tahmin et bakam: ");
+//            int t = Integer.parseInt(tahmin);
+//            if (t == sayi){
+//                String message = "Helal len yusufi "+i+". tahminde bildin";
+//                JOptionPane.showMessageDialog(null,message);
+//                break;
+//            }
+//            else {
+//                i++;
+//            }
+//        }
+//    }
 }
