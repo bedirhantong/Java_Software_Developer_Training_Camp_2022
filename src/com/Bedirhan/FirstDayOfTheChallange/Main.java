@@ -1,4 +1,6 @@
 package com.Bedirhan.FirstDayOfTheChallange;
+import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 /**
  * @author BEDİRHAN TONĞ
@@ -14,41 +16,41 @@ public class Main {
     // u can initialize it in another line.
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+//        System.out.println("Hello World");
         /*
         Primitive değişken tipleri stack
         Referans değişken tipleri Heapte tutulur
          */
-        int num1 = 3;
-        double dNum = 3.4;
-        float fNum = 3.4f;
-
-        System.out.println(num1+" "+dNum+" "+fNum);
-        System.out.println("--------------------");
-        System.out.println();
+//        int num1 = 3;
+//        double dNum = 3.4;
+//        float fNum = 3.4f;
+//
+//        System.out.println(num1+" "+dNum+" "+fNum);
+//        System.out.println("--------------------");
+//        System.out.println();
 
         // Printing UpperCase Letters
-        char charachter;
-        int number;
-        for (int i = 65; i <= 90 ; i++) {
-            number = i;
-            charachter = (char) number;
-            System.out.println(charachter+"-");
-        }
-        System.out.println("--------------------");
-        System.out.println("Some interesting charachters");
-        System.out.println("\rJava\'camp\"2022\\");
-        System.out.println("--------------------");
-        System.out.println();
+//        char charachter;
+//        int number;
+//        for (int i = 65; i <= 90 ; i++) {
+//            number = i;
+//            charachter = (char) number;
+//            System.out.println(charachter+"-");
+//        }
+//        System.out.println("--------------------");
+//        System.out.println("Some interesting charachters");
+//        System.out.println("\rJava\'camp\"2022\\");
+//        System.out.println("--------------------");
+//        System.out.println();
 
         /*
         var ile değişken tanımlarsan ilk değer atamak zorundasın ve başka
         satırda yeni bir değer atayamazsın.
          */
-        var num = 12.32;
-        System.out.println(num);
-        System.out.println("--------------------");
-        System.out.println();
+//        var num = 12.32;
+//        System.out.println(num);
+//        System.out.println("--------------------");
+//        System.out.println();
 
         // VERİ TİPLERİNİN BİRBİRİNE DÖNÜŞÜMÜ
         /*
@@ -56,14 +58,14 @@ public class Main {
         ama daha alt bir veri tipine cast edersek veri kaybı oluşur. Bunu bir valizdeki eşyaları
         başka valize koymak gibi düşünebilirsin.
          */
-        String val = "2";
-        int val2 = Integer.parseInt(val)*2;
-        System.out.println(val2*2);
-        String newVal = Integer.toString(val2);
-        System.out.println(newVal+newVal);
-        double dNum2 = 3.32;
-        int intNum = (int) dNum2;
-        System.out.println(intNum);
+//        String val = "2";
+//        int val2 = Integer.parseInt(val)*2;
+//        System.out.println(val2*2);
+//        String newVal = Integer.toString(val2);
+//        System.out.println(newVal+newVal);
+//        double dNum2 = 3.32;
+//        int intNum = (int) dNum2;
+//        System.out.println(intNum);
 
         /*
                 REFERANS VERİ TİPLERİ
@@ -71,6 +73,31 @@ public class Main {
         Referans veri tiplerinde işlemler değişkenin kendisi ile yapılır. Primitive tiplerde işlemler değişkenin
         kopyası ile yapılır. Bu sayede yapılan işlem sonucu değişkenimizin değeri değişir.
          */
+
+
+        // KULLANICIDAN VERİ ALMA
+//        Scanner scanner = new Scanner(System.in);
+//        int a = scanner.nextInt();
+//        System.out.println(a);
+//        double d = scanner.nextDouble();
+//        System.out.println(d);
+//        float f = scanner.nextFloat();
+//        System.out.println(f);
+//        System.out.println();
+//        String string = scanner.nextLine();
+//        System.out.println(string);
+
+
+        String sayi = JOptionPane.showInputDialog("Bir sayi girin: ");
+//        JOptionPane.showMessageDialog(null,"Yazdığınız sayi :  "+sayi);
+        JOptionPane.showMessageDialog(null,"Yazdığınız sayi :  "+sayi,"Sonuç",JOptionPane.INFORMATION_MESSAGE);
+
+
+
+
+
+
+
 
 
 
