@@ -1,5 +1,6 @@
 package com.Bedirhan.FirstDayOfTheChallange;
 import javax.swing.JOptionPane;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -88,18 +89,35 @@ public class Main {
 //        System.out.println(string);
 
 
-        String sayi = JOptionPane.showInputDialog("Bir sayi girin: ");
+//        String sayi = JOptionPane.showInputDialog("Bir sayi girin: ");
 //        JOptionPane.showMessageDialog(null,"Yazdığınız sayi :  "+sayi);
-        JOptionPane.showMessageDialog(null,"Yazdığınız sayi :  "+sayi,"Sonuç",JOptionPane.INFORMATION_MESSAGE);
+//        JOptionPane.showMessageDialog(null,"Yazdığınız sayi :  "+sayi,"Sonuç",JOptionPane.INFORMATION_MESSAGE);
+
+
+//        guessNumber();
 
 
 
 
 
 
+    }
 
-
-
-
+    static void guessNumber(){
+        int i = 1;
+        Random r = new Random();
+        int sayi = r.nextInt(10);
+        while (true){
+            String tahmin = JOptionPane.showInputDialog("tahmin et bakam: ");
+            int t = Integer.parseInt(tahmin);
+            if (t == sayi){
+                String message = "Helal len yusufi "+i+". tahminde bildin";
+                JOptionPane.showMessageDialog(null,message);
+                break;
+            }
+            else {
+                i++;
+            }
+        }
     }
 }
