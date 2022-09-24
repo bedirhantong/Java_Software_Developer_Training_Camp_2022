@@ -1,5 +1,6 @@
 package com.Bedirhan.FirstDayOfTheChallange;
 import javax.swing.JOptionPane;
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -138,29 +139,41 @@ public class Main {
 
 
 
-
-
-
 // END OF MAİN METHOD
     }
-//    static int hesapla(int a,int b){
-//        return a+b;
-//    }
-//    static void guessNumber(){
-//        int i = 1;
-//        Random r = new Random();
-//        int sayi = r.nextInt(10);
-//        while (true){
-//            String tahmin = JOptionPane.showInputDialog("tahmin et bakam: ");
-//            int t = Integer.parseInt(tahmin);
-//            if (t == sayi){
-//                String message = "Helal len yusufi "+i+". tahminde bildin";
-//                JOptionPane.showMessageDialog(null,message);
-//                break;
-//            }
-//            else {
-//                i++;
-//            }
-//        }
-//    }
+    // We see the goods of static methods
+    /*
+    static metod oluşturunca illa her nesne için ayrı ayrı bu metodu oluşturmanıza gerek kalmaz
+    hem de sınıf adıyla erişebilirsiniz
+     */
+    static int fak(int num){
+        if ( num == 1){
+            return 1;
+        }
+        else
+            return num*(fak(num-1));
+    }
+    static int fibonacci (int num){
+        if(num == 1){
+            return 1;
+        }
+        else return num*fibonacci(num-1);
+    }
+    static void guessNumber(){
+        int i = 1;
+        Random r = new Random();
+        int sayi = r.nextInt(10);
+        while (true){
+            String tahmin = JOptionPane.showInputDialog("tahmin et bakam: ");
+            int t = Integer.parseInt(tahmin);
+            if (t == sayi){
+                String message = "Helal len yusufi "+i+". tahminde bildin";
+                JOptionPane.showMessageDialog(null,message);
+                break;
+            }
+            else {
+                i++;
+            }
+        }
+    }
 }
