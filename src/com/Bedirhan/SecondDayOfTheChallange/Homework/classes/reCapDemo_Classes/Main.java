@@ -7,5 +7,7 @@ public class Main {
         System.out.println(calculator.divide(10,4));
         System.out.println(calculator.multiply(4,2));
         System.out.println(calculator.subtract(43,2));
+
+        System.out.println(calculator.toString());
     }
 }
