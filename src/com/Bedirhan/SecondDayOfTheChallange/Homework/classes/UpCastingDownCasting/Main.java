@@ -1,4 +1,4 @@
-package com.Bedirhan.SecondDayOfTheChallange.Homework.classes.UpCasting;
+package com.Bedirhan.SecondDayOfTheChallange.Homework.classes.UpCastingDownCasting;
 
 public class Main {
     public static void main(String[] args) {
