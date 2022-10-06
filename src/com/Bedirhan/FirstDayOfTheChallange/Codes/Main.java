@@ -18,6 +18,46 @@ public class Main {
     // u can initialize it in another line.
 
     public static void main(String[] args) {
+        System.out.println("Hello Word");
+
+        //değişken isimleri java'da camelCase yazılır
+        String ortaMetin="İlginizi Çekebilir";
+        String altMetin="Vade Süresi";
+
+        System.out.println(ortaMetin);
+        System.out.println(altMetin);
+
+
+        int vade=12;
+        double dolarDun=18.20;
+        double dolarBugun=18.20;
+        boolean dolarDustuMu=true;
+
+        String okYonu="";
+
+        //Şart blokları
+        if(dolarBugun<dolarDun) {//true
+            okYonu="down.svg";
+            System.out.println(okYonu);
+
+        }
+        else if(dolarBugun>dolarDun) {
+            okYonu="up.svg";
+            System.out.println(okYonu);
+        }
+
+        else {
+
+            okYonu="equal.svg";
+            System.out.println(okYonu);
+        }
+
+
+        String[] krediler= {"Hızı Kredi","Maaşını Halbanktan Alanlar","Mutlu Emekli"};
+
+        for (int i = 0; i < krediler.length; i++) {
+            System.out.println(krediler[i]);
+        }
 //        System.out.println("Hello World");
         /*
         Primitive değişken tipleri stack
