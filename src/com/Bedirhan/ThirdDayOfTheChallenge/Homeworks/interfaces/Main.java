@@ -2,6 +2,7 @@ package com.Bedirhan.ThirdDayOfTheChallenge.Homeworks.interfaces;
 
 public class Main {
     public static void main(String[] args) {
-        ICustomerDal iCustomerDal = new MySqlCustomerDal();
+        CustomerManager customerManager =  new CustomerManager(new MySqlCustomerDal());
+         customerManager.add();
     }
 }
