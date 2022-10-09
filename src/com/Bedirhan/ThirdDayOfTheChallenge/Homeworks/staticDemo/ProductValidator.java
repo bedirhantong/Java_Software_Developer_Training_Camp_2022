@@ -21,7 +21,4 @@ public class ProductValidator {
             System.out.println("Deleted");
         }
     }
-
-
-
 }
