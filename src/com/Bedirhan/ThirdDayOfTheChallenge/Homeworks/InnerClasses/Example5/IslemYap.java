@@ -23,7 +23,6 @@ public class IslemYap {
     }
 
     public static void main(String[] args) {
-        IslemYap islemYap =  new IslemYap();
         System.out.println(OuterClass.ad);
         OuterClass.metod1();
         System.out.println(DahiliUyeSinif2.b);

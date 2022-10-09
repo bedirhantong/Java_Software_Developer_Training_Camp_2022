@@ -20,11 +20,11 @@ public class IslemYap {
         public static void topla(int x, int y){
             System.out.println("result : "+ (x+y));
         }
+
     }
 
     public static void main(String[] args) {
         IslemYap islemYap =  new IslemYap();
-
         IslemYap.DahiliUyeSinif a = islemYap. new DahiliUyeSinif(5,8);
         a.carp();
         DahiliUyeSinif2.topla(5,2);
