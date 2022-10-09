@@ -1,4 +1,3 @@
-<img align="center" src="https://www.linkpicture.com/view.php?img=LPic6342dfd0d841c12133990"></img>
 <a href="https://www.linkpicture.com/view.php?img=LPic6342dfd0d841c12133990"><img src="https://www.linkpicture.com/q/Ekran-1.png" type="image"></a>
 
 <!-- First Day Of The Challenge -->
