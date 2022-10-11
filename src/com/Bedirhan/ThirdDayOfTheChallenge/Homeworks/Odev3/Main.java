@@ -16,7 +16,9 @@ import com.Bedirhan.ThirdDayOfTheChallenge.Homeworks.Odev3.entities.Tutor;
 import java.util.ArrayList;
 
 public class Main {
+
     public static void main(String[] args) throws Exception {
+        long startTime = System.nanoTime();
         ILogger[] loggers ={
                 new DatabaseLogger(),new FileLogger(),new MailLogger()
         };
@@ -42,7 +44,8 @@ public class Main {
         ArrayList<Course> courses = new ArrayList<>();
         CourseManager courseManager = new CourseManager(new HibernateCourseDao(),loggers3,courses);
         courseManager.add(course1);
-
+        long endTime = System.nanoTime();
+        System.out.println(endTime-startTime);
 
 
     }
