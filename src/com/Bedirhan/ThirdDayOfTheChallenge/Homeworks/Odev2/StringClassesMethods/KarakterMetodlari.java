@@ -24,6 +24,10 @@ public class KarakterMetodlari {
         char[] arr =  new char[uzunluk];
         arr = str.toCharArray();
 
+        System.out.println(str.indexOf("yz"));
+        System.out.println(str.lastIndexOf("a"));
+        System.out.println(str.indexOf("ıjk"));
+
 
 
     }
