@@ -20,6 +20,10 @@ public class KarakterMetodlari {
         String str  = "abcdefghıjklmnoprstuvyz";
         System.out.println(str.charAt(2));
 
+        int uzunluk = str.length();
+        char[] arr =  new char[uzunluk];
+        arr = str.toCharArray();
+
 
 
     }
