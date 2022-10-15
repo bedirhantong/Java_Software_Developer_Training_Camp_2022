@@ -12,5 +12,15 @@ public class KarakterMetodlari {
         System.out.println(kaynak2);
         dizge.getChars(41,52,kaynak3,0);
         System.out.println(kaynak3);
+
+
+
+
+
+        String str  = "abcdefghıjklmnoprstuvyz";
+        System.out.println(str.charAt(2));
+
+
+
     }
 }
