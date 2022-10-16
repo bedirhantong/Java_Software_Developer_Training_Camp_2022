@@ -17,7 +17,13 @@ public class ComparisonCont {
         basla = a1.startsWith("JAVA");
         System.out.println(basla);
         boolean bit = a1.endsWith("PROGRAMMING");
-        System.out.println(bit);
 
+
+        System.out.println(bit);
+        String s1="Sachin";
+        String s2="Sachin";
+        String s3=new String("Sachin");
+        System.out.println(s1==s2);//true (because both refer to same instance)
+        System.out.println(s1==s3);//false(because s3 refers to instance created in nonpool)
     }
 }
