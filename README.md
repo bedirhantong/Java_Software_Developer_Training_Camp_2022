@@ -136,6 +136,52 @@
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/InnerClasses/Example6/Nonstatic.java">Nonstatic</a></li>
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/InnerClasses/Example6/Static.java">Static</a></li>
 </ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3">DemoDataBaseProject</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/business">Business</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/business/BaseManager.java">BaseManager</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/business/CategoryManager.java">CategoryManager</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/business/CourseManager.java">CourseManager</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/business/TutorManager.java">TutorManager</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/core/Logging">Logging</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/core/Logging/DatabaseLogger.java">DatabaseLogger</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/core/Logging/FileLogger.java">FileLogger</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/core/Logging/ILogger.java">ILogger</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/core/Logging/MailLogger.java">MailLogger</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess">DatabaseAccess</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/category">Category</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/category/HibernateCategoryDao.java">HibernateCategoryDao</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/category/JdbcCategoryDao.java">JdbcCategoryDao</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/course">Course</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/course/HibernateCourseDao.java">HibernateCourseDao</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/course/JdbcCourseDao.java">JdbcCourseDao</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/tutor">Tutor</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/tutor/HibernateTutorDao.java">HibernateTutorDao</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/tutor/JdbcTutorDao.java">JdbcTutorDao</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/HibernateDao.java">HibernateDao</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/IProductDao.java">IProductDao</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/databaseAccess/JdbcDao.java">JdbcDao</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/entities">Entities</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/entities/BaseEntity.java">BaseEntity</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/entities/Category.java">Category</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/entities/Course.java">Course</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/entities/Tutor.java">Tutor</a> </li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev3/Main.java">Main</a> </li>
+</ul>   
 </ul>
 </ul>
 </ul>
