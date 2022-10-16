@@ -1,5 +1,7 @@
 package com.Bedirhan.ThirdDayOfTheChallenge.Homeworks.Odev2.StringClassesMethods;
 
+import java.util.Locale;
+
 public class KarakterMetodlari {
     public static void main(String[] args) {
         String dizge = "Bu bolumde String nesnelerin metotlarını ogreniyoruz";
@@ -55,9 +57,15 @@ public class KarakterMetodlari {
         // başındaki ve sonundaki boşluklar silindi ama string immutable sadece string döndürdük
 
         String[] arr2 = name.split("\\s");
-        for (String val:arr2) {
-            System.out.print(val);
-        }
+//        for (String val:arr2) {
+//            System.out.print(val);
+//        }
+
+        String toCase = "Merhaba string";
+        String tr = toCase.toUpperCase();
+//        System.out.println(tr);
+        String en = tr.toLowerCase();
+//        System.out.println(en);
 
 
 
