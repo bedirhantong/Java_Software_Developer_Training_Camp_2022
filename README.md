@@ -91,6 +91,30 @@
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/AbstractClasses/abstractDemo/OracleDatabaseManager.java">OracleDatabaseManager</a></li>
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/AbstractClasses/abstractDemo/SqlServerDatabaseManager.java">SqlServerDatabaseManager</a></li>
 </ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding">Overriding</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding/BaseKrediManager.java">BaseKrediManager</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding/Main.java">Main</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding/OgrenciKrediManager.java">OgrenciKrediManager</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding/OgretmenKrediManager.java">OgretmenKrediManager</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Overriding/TarimKrediManager.java">TarimKrediManager</a></li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/staticDemo">StaticUsage</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/staticDemo/Product.java">Product</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/staticDemo/Main.java">Main</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/staticDemo/ProductManager.java">ProductManager</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/staticDemo/ProductValidator.java">ProductValidator</a></li>
+</ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods">StringClassesAndMethods</a></li>
+<ul>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/StringSinifinaGris.java">Basics</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/ComparisonCont.java">Comparisons</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/KarakterMetodlari.java">CharacterMethods</a> </li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/StringBuffferDemo.java">StringBuffer</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/StringBuilderDemo.java">StringBuilder</a></li>
+<li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/StringClassesMethods/StringTokenizerDemo.java">StringTokenizer</a></li>
+</ul>
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/tree/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Example1">BasicMathFunctions</a></li>
 <ul>
 <li><a href="https://github.com/bedirhantong/Java_Software_Developer_Training_Camp_2022/blob/master/src/com/Bedirhan/ThirdDayOfTheChallenge/Homeworks/Odev2/Example1/Main.java">Main</a> </li>
@@ -114,4 +138,5 @@
 </ul>
 </ul>
 </ul>    
+</ul>
 </ul>
