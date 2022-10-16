@@ -67,6 +67,9 @@ public class KarakterMetodlari {
         String en = tr.toLowerCase();
 //        System.out.println(en);
 
+        int num= 10;
+        String strNum = String.valueOf(num);
+        System.out.println(strNum);
 
 
     }
