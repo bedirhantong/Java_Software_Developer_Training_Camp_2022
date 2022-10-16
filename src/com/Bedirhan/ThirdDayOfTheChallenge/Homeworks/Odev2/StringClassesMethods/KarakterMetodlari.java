@@ -69,7 +69,8 @@ public class KarakterMetodlari {
 
         int num= 10;
         String strNum = String.valueOf(num);
-        System.out.println(strNum);
+//        System.out.println(strNum);
+
 
 
     }
