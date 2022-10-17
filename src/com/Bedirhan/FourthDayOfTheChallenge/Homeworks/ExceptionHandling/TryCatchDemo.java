@@ -1,9 +1,13 @@
 package com.Bedirhan.FourthDayOfTheChallenge.Homeworks.ExceptionHandling;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TryCatchDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 //        int a =19;
 //        int b = 0;
 //        int c;
@@ -28,6 +32,17 @@ public class TryCatchDemo {
 //            System.out.println("hata olustu");
 //            System.out.println(e);
 //        }
+
+        FileOutputStream fileOutputStream = new FileOutputStream("kitap.txt");
+        try (fileOutputStream){
+            String d = "metin ekliyoruz";
+            byte bytes[] = d.getBytes();
+            fileOutputStream.write(bytes);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            System.out.println(e.toString());
+        }
 
     }
 
