@@ -1,5 +1,6 @@
 package com.Bedirhan.FourthDayOfTheChallenge.Homeworks.ExceptionHandling;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MyOrdinaryException extends Exception{
@@ -24,7 +25,8 @@ class Main{
             }
         }
         catch (MyOrdinaryException e){
-            System.out.println(e.toString());
+            System.out.println(e.getLocalizedMessage());
+            System.out.println(Arrays.toString(e.getStackTrace()));
         }
         System.out.println("Devammmmmmm");
     }
