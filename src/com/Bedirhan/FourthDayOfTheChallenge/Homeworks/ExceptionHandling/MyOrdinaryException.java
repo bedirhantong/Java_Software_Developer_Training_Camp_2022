@@ -6,12 +6,6 @@ public class MyOrdinaryException extends Exception{
     int num = 0;
     public MyOrdinaryException(){
     }
-
-    public String toString(String str) {
-        return "MyOrdinaryException{" +
-                "num=" + num +
-                str;
-    }
     public String toString() {
         return "MyOrdinaryException{" +
                 "num=" + num +
@@ -24,9 +18,14 @@ class Main{
         System.out.print("Please enter a number : ");
         int num = scanner.nextInt();
         System.out.println("-----------");
-        if (num == 0){
-            throw new MyOrdinaryException();
+        try {
+            if (num == 0){
+                throw new MyOrdinaryException();
+            }
         }
-
+        catch (MyOrdinaryException e){
+            System.out.println(e.toString());
+        }
+        System.out.println("Devammmmmmm");
     }
 }
